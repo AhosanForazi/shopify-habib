@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="main-nav">
+        <a class="nav-logo" href="index.html">Shopify Habib<span>.</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="nav-cta">Let's Talk</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="page" id="page-services">
+        <section class="services-page-hero">
+            <div class="container">
+                <span class="section-label">Services</span>
+                <h1>Everything your Shopify<br>store needs</h1>
+                <p>End-to-end solutions from design and development to marketing automation — delivered with precision.
+                </p>
+            </div>
+        </section>
+
+        <section class="services-detailed">
+            <div class="container">
+
+                <!-- Service 1 -->
+                <div class="service-detail fade-in">
+                    <div class="service-detail-visual">
+                        <img src="assets/shopify theme.png" alt="Theme Development">
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="section-label">01 — Theme Development</span>
+                        <h2>Shopify Theme Development</h2>
+                        <p>Custom-built Shopify themes designed for speed, scalability, and performance. Built from the
+                            ground up using Shopify Liquid — no templates, no limitations.</p>
+                        <ul class="benefit-list">
+                            <li>100% custom design that reflects your brand identity</li>
+                            <li>Optimized for Core Web Vitals and Google PageSpeed</li>
+                            <li>Mobile-first, fully responsive across all devices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-detail reverse fade-in">
+                    <div class="service-detail-visual">
+                        <img src="assets/shopify store.png" alt="Store Design">
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="section-label">02 — Store Design</span>
+                        <h2>Shopify Store Design</h2>
+                        <p>Modern, high-converting store designs crafted using PageFly. I transform your brand vision
+                            into a pixel-perfect eCommerce experience that builds trust and drives sales.</p>
+                        <ul class="benefit-list">
+                            <li>Conversion-optimized layouts grounded in UX research</li>
+                            <li>Consistent brand experience across every touchpoint</li>
+                            <li>A/B tested design patterns that improve sales</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-detail fade-in">
+                    <div class="service-detail-visual">
+                        <img src="assets/product listing.png" alt="Product Listing">
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="section-label">03 — Product Listing</span>
+                        <h2>Product Listing & Management</h2>
+                        <p>Organized, SEO-friendly product uploads and management that make your catalogue easy to
+                            browse and discover. Properly structured products sell more.</p>
+                        <ul class="benefit-list">
+                            <li>SEO-optimized titles, descriptions, and meta tags</li>
+                            <li>Clean catalogue structure with smart collections</li>
+                            <li>High-quality image optimization for fast loading</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-detail reverse fade-in">
+                    <div class="service-detail-visual">
+                        <img src="assets/email-marketing.png" alt="Email Marketing">
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="section-label">04 — Email Marketing</span>
+                        <h2>Email Marketing with Klaviyo</h2>
+                        <p>Automated email flows designed to increase retention, recover abandoned carts, and drive
+                            repeat purchases. Klaviyo makes your email list a revenue engine.</p>
+                        <ul class="benefit-list">
+                            <li>Welcome series, abandonment flows & post-purchase sequences</li>
+                            <li>Segmented campaigns for higher open and click rates</li>
+                            <li>Performance tracking and continuous optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA Band -->
+        <section
+            style="background: linear-gradient(135deg, #0b1527 0%, #152340 100%); padding:5rem 0; text-align:center;">
+            <div class="container">
+                <h2 style="color:white; margin-bottom:0.75rem;">Ready to grow your store?</h2>
+                <p
+                    style="color:rgba(255,255,255,0.55); margin-bottom:2rem; max-width:440px; margin-left:auto; margin-right:auto;">
+                    Let's discuss your project and build something exceptional together.</p>
+                <button class="btn btn-primary" onclick="window.location.href= 'contact.html'"
+                    style="background: var(--cta); color:var(--white); box-shadow: var(--shadow-cta);">Start a Project
+                    →</button>
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
