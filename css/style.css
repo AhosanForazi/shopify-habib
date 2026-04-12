@@ -352,9 +352,9 @@
     overflow: hidden;
   }
 
-  .project-thumb-1 { background: linear-gradient(135deg, #eef2fc 0%, #c7d9ff 100%); height: 400px; }
-  .project-thumb-2 { background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%); height: 400px; }
-  .project-thumb-3 { background: linear-gradient(135deg, #fff7f0 0%, #fed7aa 100%); height: 400px; }
+  .project-thumb-1 { background: linear-gradient(135deg, #eef2fc 0%, #c7d9ff 100%); height: 350px; }
+  .project-thumb-2 { background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%); height: 350px; }
+  .project-thumb-3 { background: linear-gradient(135deg, #fff7f0 0%, #fed7aa 100%); height: 350px; }
 
   .project-thumb-1 img, .project-thumb-2 img, .project-thumb-3 img {
     width: 100%;
@@ -604,11 +604,24 @@
 
   .projects-full { padding: clamp(2rem, 5vw, 4rem) 0 clamp(4rem, 8vw, 7rem); }
 
+.projects-full-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 830px) {
   .projects-full-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(356px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (min-width: 1025px) {
+  .projects-full-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
   .project-full-card {
     background: #fdf9f5;
@@ -630,12 +643,12 @@
     position: relative;
   }
 
-  .pft-1 { background: linear-gradient(135deg, #eef2fc, #c7d9ff); height: 400px; }
-  .pft-2 { background: linear-gradient(135deg, #f0fff4, #9decb8);  height: 400px; }
-  .pft-3 { background: linear-gradient(135deg, #fffbf0, #fde68a); height: 400px; }
-  .pft-4 { background: linear-gradient(135deg, #fdf4ff, #e9d5ff); height: 400px; }
-  .pft-5 { background: linear-gradient(135deg, #fff1f0, #fecaca); height: 400px; }
-  .pft-6 { background: linear-gradient(135deg, #f0fdff, #a5f3fc); height: 400px; }
+  .pft-1 { background: linear-gradient(135deg, #eef2fc, #c7d9ff); height: 350px; }
+  .pft-2 { background: linear-gradient(135deg, #f0fff4, #9decb8);  height: 350px; }
+  .pft-3 { background: linear-gradient(135deg, #fffbf0, #fde68a); height: 350px; }
+  .pft-4 { background: linear-gradient(135deg, #fdf4ff, #e9d5ff); height: 350px; }
+  .pft-5 { background: linear-gradient(135deg, #fff1f0, #fecaca); height: 350px; }
+  .pft-6 { background: linear-gradient(135deg, #f0fdff, #a5f3fc); height: 350px; }
   .pft-1 img, .pft-2 img, .pft-3 img, .pft-4 img, .pft-5 img, .pft-6 img {
     width: 100%;
     height: 100%;
