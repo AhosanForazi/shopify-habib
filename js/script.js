@@ -12,6 +12,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Intersection animations
+
 function triggerAnimations() {
   document.querySelectorAll('.fade-in:not(.visible)').forEach(el => {
     const rect = el.getBoundingClientRect();

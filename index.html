@@ -14,25 +14,25 @@
 
 <body>
 
-<nav id="main-nav">
-  <a class="nav-logo" href="index.html">Shopify Habib<span>.</span></a>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html" class="nav-cta">Let's Talk</a></li>
-  </ul>
-  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
+    <nav id="main-nav">
+        <a class="nav-logo" href="index.html">Shopify Habib<span>.</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="nav-cta">Let's Talk</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
 
-    <!-- ══ HOME PAGE ══════════════════════════════════════ -->
     <div class="page active" id="page-home">
 
         <!-- Hero -->
         <section class="hero">
+            <div class="hero-bg"></div>
             <div class="container">
                 <div class="hero-inner">
                     <div class="hero-badge">Available for new projects</div>
@@ -40,8 +40,10 @@
                     <p class="hero-sub">I build high-converting Shopify stores, custom themes, and optimized user
                         experiences that turn visitors into loyal customers.</p>
                     <div class="hero-btns">
-                        <button class="btn btn-primary" onclick="window.location.href='projects.html'">View Projects →</button>
-                        <button class="btn btn-outline" onclick="window.location.href='contact.html'">Contact Me</button>
+                        <button class="btn btn-primary" onclick="window.location.href='projects.html'">View
+                            Projects</button>
+                        <button class="btn btn-outline" onclick="window.location.href='contact.html'">Contact
+                            Me</button>
                     </div>
                     <div class="hero-stats">
                         <div class="stat-item">
@@ -101,60 +103,61 @@
         </section>
 
         <!-- Projects Preview -->
-        <section>
+        <section class="projects-preview">
             <div class="container">
                 <div class="section-header fade-in">
                     <span class="section-label">Recent Work</span>
                     <h2>Results that speak<br>for themselves</h2>
                 </div>
                 <div class="projects-grid">
-                    
+
                     <div class="project-card fade-in fade-in-delay-1">
                         <a href="https://denveracrylics.com/" target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb project-thumb-1">
-                            <img src="assets/Sample-Pack-2.webp" alt="denveracrylics.com">
-                        </div>
-                        <div class="project-body">
-                            <h3>Store design and product listing</h3>
-                            <p>Complete UI/UX overhaul with improved navigation and product discovery.</p>
-                            <span class="project-result">↑ 18% Conversion Rate</span>
-                        </div>
+                            <div class="project-thumb project-thumb-1">
+                                <img src="assets/Sample-Pack-2.webp" alt="denveracrylics.com">
+                            </div>
+                            <div class="project-body">
+                                <h3>Store design and product listing</h3>
+                                <p>Complete UI/UX overhaul with improved navigation and product discovery.</p>
+                                <span class="project-result">↑ 18% Conversion Rate</span>
+                            </div>
                         </a>
                     </div>
                     <div class="project-card fade-in fade-in-delay-2">
                         <a href="https://dubaichocolates.de/" target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb project-thumb-2">
-                            <img src="assets/kilo_product.webp" alt="dubaichocolates.de">
-                        </div>
-                        <div class="project-body">
-                            <h3>Custom Shopify Theme</h3>
-                            <p>Built from scratch using Shopify Liquid with focus on performance.</p>
-                            <span class="project-result">↑ 40% Page Speed</span>
-                        </div>
+                            <div class="project-thumb project-thumb-2">
+                                <img src="assets/kilo_product.webp" alt="dubaichocolates.de">
+                            </div>
+                            <div class="project-body">
+                                <h3>Custom Shopify Theme</h3>
+                                <p>Built from scratch using Shopify Liquid with focus on performance.</p>
+                                <span class="project-result">↑ 40% Page Speed</span>
+                            </div>
                         </a>
                     </div>
                     <div class="project-card fade-in fade-in-delay-3">
                         <a href="https://monacora.com/" target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb project-thumb-3">
-                            <img src="assets/monacora Bougie.webp" alt="monacora Bougie">
-                        </div>
-                        <div class="project-body">
-                            <h3>Email Automation</h3>
-                            <p>Klaviyo flows for welcome series, abandonment, and post-purchase.</p>
-                            <span class="project-result">↑ 15% Cart Recovery</span>
-                        </div>
+                            <div class="project-thumb project-thumb-3">
+                                <img src="assets/monacora Bougie.webp" alt="monacora Bougie">
+                            </div>
+                            <div class="project-body">
+                                <h3>Email Automation</h3>
+                                <p>Klaviyo flows for welcome series, abandonment, and post-purchase.</p>
+                                <span class="project-result">↑ 15% Cart Recovery</span>
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div style="text-align:center; margin-top:2.5rem;">
-                    <button class="btn btn-outline" onclick="window.location.href='projects.html'">See All Projects →</button>
+                    <button class="btn btn-outline" onclick="window.location.href='projects.html'">See All Projects
+                        →</button>
                 </div>
             </div>
         </section>
 
         <!-- Trust -->
         <section class="trust-section"
-            style="background: linear-gradient(135deg, #0b1527 0%, #152340 100%); padding: 5rem 0;">
+            style="background: var(--off-gray); padding: 5rem 0;">
             <div class="container">
                 <span class="section-label" style="color:var(--cta);">Trusted Worldwide</span>
                 <h2>Helping brands grow<br>on Shopify</h2>
@@ -194,6 +197,8 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </body>
 
 </html>
